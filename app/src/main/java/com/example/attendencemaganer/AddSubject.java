@@ -38,7 +38,8 @@ public class AddSubject extends AppCompatActivity {
     }
 
     public void addSubject(View view) {
-
+        String subName = subjectName.getText().toString();
+        int hrs = Integer.parseInt(totalHours.getText().toString());
 
 
     }
