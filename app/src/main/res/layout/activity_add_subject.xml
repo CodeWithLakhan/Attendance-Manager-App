@@ -24,7 +24,7 @@
         android:ems="10"
         android:inputType="number"
 
-        android:hint="Enter Total Hrous of Subject in Overall Semester"/>
+        android:hint="Enter Total Hours of Subject in Overall Semester"/>
 
     <Button
         android:layout_width="wrap_content"
