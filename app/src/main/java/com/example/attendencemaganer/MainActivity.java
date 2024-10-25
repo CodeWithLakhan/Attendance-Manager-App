@@ -37,11 +37,11 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<Integer> noOfClassesConducted = dbHelper.getConductedHelper();
         ArrayList<String> s1 = dbHelper.getSubjectNameHelper();
         ArrayList<Integer> totalHours = dbHelper.getTotalHoursHelper();
+        
 
         int[] youCanBunk = new int[totalHours.size()];
 
-        Toast.makeText(this, ""+totalHours.get(0), Toast.LENGTH_SHORT).show();
-        if(s1.size()>=0)
+        if(s1.size()>0)
         {
             float percent[] = new float[s1.size()];
             for(int i=0;i<s1.size();i++)

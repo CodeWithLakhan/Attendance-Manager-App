@@ -13,6 +13,8 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AlertDialog;
 
+import com.google.android.material.snackbar.Snackbar;
+
 import java.util.ArrayList;
 
 public class CustomBaseAdapter extends BaseAdapter {
@@ -23,8 +25,6 @@ public class CustomBaseAdapter extends BaseAdapter {
     float[] percent;
     DBHelper dbHelper ;
     int[] youCanBunk;
-
-
 
     public CustomBaseAdapter(Context applicationContext, ArrayList<String> s1, float[] percent,int[] youCanBunk) {
         this.context = applicationContext;
@@ -132,6 +132,7 @@ public class CustomBaseAdapter extends BaseAdapter {
                 notifyDataSetChanged();
             }
         });
+
         return view;
 
     }
